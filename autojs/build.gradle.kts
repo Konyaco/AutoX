@@ -58,6 +58,9 @@ dependencies {
     api("com.github.Stericson:RootShell:1.6")
     // Gson
     api("com.google.code.gson:gson:2.9.1")
+    // MQTT
+    api("org.eclipse.paho:org.eclipse.paho.mqttv5.client:1.2.5")
+    api("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5")
     // log4j
     api(group = "de.mindpipe.android", name = "android-logging-log4j", version = "1.0.3")
     api(group = "log4j", name = "log4j", version = "1.2.17")

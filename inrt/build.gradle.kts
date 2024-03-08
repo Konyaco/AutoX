@@ -125,7 +125,9 @@ android {
                 "lib/armeabi-v7a/libpaddle_light_api(_shared.so"
             )
         )
-
+        resources {
+            pickFirsts.add("bundle.properties")
+        }
     }
 
 

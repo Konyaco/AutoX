@@ -162,7 +162,8 @@ android {
         resources.pickFirsts.addAll(
             listOf(
                 "META-INF/io.netty.versions.properties",
-                "META-INF/INDEX.LIST"
+                "META-INF/INDEX.LIST",
+                "bundle.properties"
             )
         )
     }
